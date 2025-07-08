@@ -3,17 +3,26 @@
 // Run with: dart solutions.dart
 
 void main() {
-  print('Solutions - Lesson 6: Final Project\n');
+  // Ініціалізуємо прогрес-трекер
+  ProgressTracker.initialize();
+  
+  // Показуємо прогрес курсу
+  ProgressTracker.displayProgress();
+  
+  print('\n🎯 ПРАКТИКА — УРОК 6: ФІНАЛЬНИЙ ПРОЕКТ');
+  print('=' * 50);
 
-  // Run all solutions
-  solution1();
-  solution2();
-  solution3();
-  solution4();
-  solution5();
+  // Розкоментуйте потрібне завдання для виконання
+  // task1();
+  // task2();
+  // task3();
+  // task4();
+  // task5();
 
-  print('All solutions completed!');
+  print('\n💡 Порада: Розкоментуйте task1() для початку роботи!');
+  print('📚 Перевірте solutions.dart для порівняння після виконання.');
 }
+
 
 // =============================================================================
 // SOLUTION 1: Basic Championship Simulator Structure

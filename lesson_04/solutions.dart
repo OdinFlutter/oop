@@ -4,24 +4,26 @@
 import 'dart:math';
 
 void main() {
-  print('Solutions for Lesson 4: Polymorphism\n');
+  // Ініціалізуємо прогрес-трекер
+  ProgressTracker.initialize();
+  
+  // Показуємо прогрес курсу
+  ProgressTracker.displayProgress();
+  
+  print('\n🎯 ПРАКТИКА — УРОК 4: ПОЛІМОРФІЗМ');
+  print('=' * 50);
 
-  solution1();
-  print('\n${'=' * 50}\n');
+  // Розкоментуйте потрібне завдання для виконання
+  // task1();
+  // task2();
+  // task3();
+  // task4();
+  // task5();
 
-  solution2();
-  print('\n${'=' * 50}\n');
-
-  solution3();
-  print('\n${'=' * 50}\n');
-
-  solution4();
-  print('\n${'=' * 50}\n');
-
-  solution5();
-
-  print('\nAll polymorphism solutions completed!');
+  print('\n💡 Порада: Розкоментуйте task1() для початку роботи!');
+  print('📚 Перевірте solutions.dart для порівняння після виконання.');
 }
+
 
 // =============================================================================
 // SOLUTION 1: Different tire types
