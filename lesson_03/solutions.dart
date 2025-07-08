@@ -2,13 +2,15 @@
 // Complete solutions for all practice tasks
 // Run with: dart solutions.dart
 
+import '../progress.dart';
+
 void main() {
   // Ініціалізуємо прогрес-трекер
   ProgressTracker.initialize();
-  
+
   // Показуємо прогрес курсу
   ProgressTracker.displayProgress();
-  
+
   print('\n🎯 ПРАКТИКА — УРОК 3: НАСЛІДУВАННЯ');
   print('=' * 50);
 
@@ -22,7 +24,6 @@ void main() {
   print('\n💡 Порада: Розкоментуйте task1() для початку роботи!');
   print('📚 Перевірте solutions.dart для порівняння після виконання.');
 }
-
 
 // =============================================================================
 // SOLUTION 1: Basic Vehicle Inheritance Hierarchy

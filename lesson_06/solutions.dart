@@ -2,13 +2,15 @@
 // Complete solutions for all practice tasks
 // Run with: dart solutions.dart
 
+import '../progress.dart';
+
 void main() {
   // Ініціалізуємо прогрес-трекер
   ProgressTracker.initialize();
-  
+
   // Показуємо прогрес курсу
   ProgressTracker.displayProgress();
-  
+
   print('\n🎯 ПРАКТИКА — УРОК 6: ФІНАЛЬНИЙ ПРОЕКТ');
   print('=' * 50);
 
@@ -22,7 +24,6 @@ void main() {
   print('\n💡 Порада: Розкоментуйте task1() для початку роботи!');
   print('📚 Перевірте solutions.dart для порівняння після виконання.');
 }
-
 
 // =============================================================================
 // SOLUTION 1: Basic Championship Simulator Structure
@@ -805,7 +806,6 @@ void solution4() {
   print('=' * 45);
 
   F1ScoringSystem f1Scoring = F1ScoringSystem();
-  AlternativeScoringSystem altScoring = AlternativeScoringSystem();
   ChampionshipStandings standings = ChampionshipStandings();
 
   Driver max = Driver('Max Verstappen', 'Red Bull', 1);

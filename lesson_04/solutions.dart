@@ -1,15 +1,15 @@
 // LESSON 4: Solutions - Polymorphism
 // Run with: dart solutions.dart
 
-import 'dart:math';
+import '../progress.dart';
 
 void main() {
   // Ініціалізуємо прогрес-трекер
   ProgressTracker.initialize();
-  
+
   // Показуємо прогрес курсу
   ProgressTracker.displayProgress();
-  
+
   print('\n🎯 ПРАКТИКА — УРОК 4: ПОЛІМОРФІЗМ');
   print('=' * 50);
 
@@ -23,7 +23,6 @@ void main() {
   print('\n💡 Порада: Розкоментуйте task1() для початку роботи!');
   print('📚 Перевірте solutions.dart для порівняння після виконання.');
 }
-
 
 // =============================================================================
 // SOLUTION 1: Different tire types
